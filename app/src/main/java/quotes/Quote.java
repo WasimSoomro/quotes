@@ -1,19 +1,13 @@
-package code;
+package quotes;
 
-import java.io.FileReader;
-import java.util.List;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import code.Quote;
-import code.QuoteGenerator;
 
 public class Quote {
-    String quote;
+    String text;
     String author;
 
     public String getQuote() {
-        return quote;
+        return text;
     }
 
     public String getAuthor() {
